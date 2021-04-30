@@ -1,0 +1,15 @@
+{
+  "name": "yarn-workspace-playground",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "start-server-and-test": "^1.12.1"
+  },
+  "workspaces": [
+    "apps/*",
+    "libs/*",
+    "tools/*"
+  ]
+}
