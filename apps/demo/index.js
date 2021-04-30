@@ -3,5 +3,4 @@ const pick = require('lodash.pick')
 
 hello()
 
-
-console.log(pick({ a: 1, b: 2}, 'a'))
+console.log('Pick output', pick({ a: 1, b: 2}, 'a'))
