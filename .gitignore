@@ -1,2 +1,4 @@
-.yarn
-.pnp.js
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*

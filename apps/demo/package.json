@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@playground/hello": "1.0.0",
+    "@playground/hello": "workspace:*",
     "lodash.pick": "^4.4.0"
   },
   "scripts": {

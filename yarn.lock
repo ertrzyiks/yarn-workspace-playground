@@ -25,12 +25,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@playground/demo@workspace:apps/demo"
   dependencies:
-    "@playground/hello": 1.0.0
+    "@playground/hello": "workspace:*"
     lodash.pick: ^4.4.0
   languageName: unknown
   linkType: soft
 
-"@playground/hello@1.0.0, @playground/hello@workspace:libs/hello":
+"@playground/hello@workspace:*, @playground/hello@workspace:libs/hello":
   version: 0.0.0-use.local
   resolution: "@playground/hello@workspace:libs/hello"
   languageName: unknown
